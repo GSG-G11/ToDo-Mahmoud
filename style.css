@@ -1,0 +1,106 @@
+body {
+    display: flex;
+}
+
+.bored {
+    background-color: white;
+    width: 600px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.todo-title {
+    height: 47px;
+    width: 226px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-icon {
+    font-size: 35px !important;
+}
+
+.todo-text {
+    margin-left: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input-label {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.input-txt {
+    width: 390px;
+    border: 0.3px solid rgb(29, 155, 240);
+    border-radius: 25px;
+}
+
+.add-button {
+    background-color: white;
+    border: white;
+}
+
+.add-icon {
+    font-size: 30px !important;
+    color: rgb(29, 155, 240);
+}
+
+.todo-list {
+    display: flex;
+    background-color: rgb(59, 205, 251);
+    margin-top: 20px;
+    border: 0.3px solid rgb(29, 155, 240);
+    border-radius: 25px;
+    width: 500px;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.added-todo {
+    margin-left: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+.listed-icon {
+    background-color: rgb(59, 205, 251);
+    border: none;
+}
+
+.edit-icon,
+.delete-icon {
+    font-size: 25px !important;
+}
+
+.check {
+    margin-right: 1px;
+}
+
+.bottom-div {
+    position: fixed;
+    bottom: 28px;
+    display: flex;
+    margin-top: 384px;
+    width: 600px;
+    height: 50px;
+    background-color: rgb(29, 155, 240);
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
