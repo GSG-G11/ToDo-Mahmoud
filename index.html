@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -27,65 +28,58 @@
             <div class="todo-text">To Do List</div>
         </div>
         <div class="input-label">
-            <input class="input-txt" type="text">
-            <button type="button" class="add-button">
-                <span class="material-icons add-icon">
+            <input class="input-txt" id="input-text" type="text">
+            <button type="submit" class="add-button material-icons add-icon" id="add-todo">
                     note_add
-                    </span>
             </button>
         </div>
-        <div class="todo-list">
-            <p class="added-todo">ToDo 1</p>
+        <div class="result">
+            <!-- <div class="todo-list">
+                <p class="added-todo">ToDo 1</p>
+                <div class="added-btn">
+                    <button type="button" class="listed-icon material-icons edit-icon" >
+                        edit
+                </button>
+                    <button type="button" class="listed-icon material-icons delete-icon">
+                        remove_circle
+                </button>
+                    <button type="button " class="listed-icon check material-icons check-icon ">
+                        check_circle
+                </button>
+                </div>
+
+            </div> -->
+            <!-- <div class="todo-list ">
+            <p class="added-todo ">ToDo 1</p>
             <div>
-                <button type="button" class="listed-icon">
-                    <span class="material-icons edit-icon">
+                <button type="button " class="listed-icon ">
+                    <span class="material-icons edit-icon ">
                         edit
                         </span>
                 </button>
-                <button type="button" class="listed-icon">
-                    <span class="material-icons delete-icon">
+                <button type="button " class="listed-icon ">
+                    <span class="material-icons delete-icon ">
                         remove_circle
                         </span>
                 </button>
-                <button type="button" class="listed-icon check">
-                    <span class="material-icons delete-icon">
-                        <span class="material-icons-outlined">
+                <button type="button " class="listed-icon check ">
+                    <span class="material-icons delete-icon ">
+                        <span class="material-icons-outlined ">
                             check_circle
                             </span>
                         </span>
                 </button>
             </div>
 
+        </div> -->
         </div>
-        <div class="todo-list">
-            <p class="added-todo">ToDo 1</p>
-            <div>
-                <button type="button" class="listed-icon">
-                    <span class="material-icons edit-icon">
-                        edit
-                        </span>
-                </button>
-                <button type="button" class="listed-icon">
-                    <span class="material-icons delete-icon">
-                        remove_circle
-                        </span>
-                </button>
-                <button type="button" class="listed-icon check">
-                    <span class="material-icons delete-icon">
-                        <span class="material-icons-outlined">
-                            check_circle
-                            </span>
-                        </span>
-                </button>
-            </div>
 
-        </div>
-        <div class="bottom-div">
+        <div class="bottom-div ">
             Total Number of Todo list
-            <h5>2</h5>
+            <h5 class="list-number">2</h5>
         </div>
     </div>
-
+    <script src="script.js "></script>
 </body>
 
 </html>
