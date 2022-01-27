@@ -51,6 +51,7 @@ body {
 .add-button {
     background-color: white;
     border: white;
+    cursor: pointer;
 }
 
 .add-icon {
